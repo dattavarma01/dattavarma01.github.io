@@ -55,10 +55,38 @@
             height:800px;
             align-items:center;
         }
+        .row5{
+            display:flex;
+            background-color: cadetblue;
+            justify-content:space-around;
+            padding:20px;
+            height:800px;
+            align-items:center
+        }
 
         .box{
             background-color: rgb(231, 221, 78);
             padding: 10px;
+        }
+        .box1{
+            padding:10px;
+            background-color:white;
+            color: black;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        li{
+            display: inline;
+            padding: 5px; 
+            font-size: larger;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover{
+            background-color:papayawhip;
+            font-weight: bold;
+
         }
     </style>
 </head>
@@ -81,7 +109,14 @@
     <div class = "container">
         <div class="row">
             <div  class="box"><h1>Datta Varma</h1></div>
-            <div class = "box"> <a href="#home">Home</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a> | <a href="#services">Services</a> | <a href="#About">About</a></div>
+            <div class = "box">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#About">About</a></div></li>
+               </div>
         </div>
     
     
@@ -127,6 +162,26 @@
     </div>
         
     </div>
+    <div class = "row5" id="Services">
+        <!-- <h1>Services</h1> -->
+        <div class ="box1"><h3> Webdevelopment App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum inventore ab et nihil ullam. Necessitatibus vel, nostrum atque dolorum ut eligendi unde ab quisquam ipsa sapiente in nihil nam earum.</p>
+        
+        </div>
+        <div class ="box1"><h3> Backend App</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dicta quod at laudantium debitis dignissimos quae, quos tempora sequi unde nulla magnam expedita iusto corrupti! Dolorum illo nam sint repellat!</p>
+        
+        </div>
+        <div class ="box1"><h3> Mobile App</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sit saepe, magni tenetur culpa necessitatibus odio? Veritatis animi quasi necessitatibus odit asperiores id tenetur labore. Similique quisquam vel voluptate vitae.</p>
+        
+        </div>
+       
+    </div>
+        
+    
+
+
 </div>
 
 
